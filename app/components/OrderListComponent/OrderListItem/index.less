@@ -1,0 +1,59 @@
+.order-list-item{
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  .order-detail{
+    display: flex;
+    img{
+      display: flex;
+      flex: 1;
+      width: 120px;
+      height: 90px;
+    }
+    .order-content{
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      line-height: 28px;
+      margin-left: 10px;
+      h3{
+        color: #757575;
+      }
+      p{
+        color: #cccccc;
+      }
+    }
+    .comment-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      button{
+        width: 70px;
+        height:35px;
+        border-radius:5px;
+        border: 1px solid ;
+        color: #ffffff;
+        background: red;
+      }
+      .commented{
+        background: #cccccc;
+      }
+    }
+  }
+  .comment-area{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    .comment-area-btn{
+      display: flex;
+      button{
+        width: 80px;
+        height:30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

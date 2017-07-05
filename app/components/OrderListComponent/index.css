@@ -1,0 +1,12 @@
+h3.title {
+  width: 80px;
+  height: 30px;
+  margin: 10px 15px 10px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  border-radius: 5px;
+  background: #618eff;
+  color: #333333;
+}

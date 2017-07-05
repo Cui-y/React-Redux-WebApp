@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  outline: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.back {
+  background: #618eff;
+}
+.color {
+  color: #618eff;
+}

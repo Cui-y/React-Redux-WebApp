@@ -1,0 +1,36 @@
+.info-component {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.info-component .info-content {
+  display: flex;
+}
+.info-component .info-content img {
+  width: 130px;
+  height: 100px;
+}
+.info-component .info-content .info-detail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.info-component .info-content .info-detail .star-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+}
+.info-component .info-content .info-detail .star-price span {
+  color: #ccc;
+}
+.info-component .info-content .info-detail p {
+  margin-top: 13px;
+}
+.info-component .desc {
+  border-top: 1px solid #c4c4c4;
+  margin-top: 20px;
+  padding-top: 5px;
+  line-height: 32px;
+  font-size: 17px;
+}

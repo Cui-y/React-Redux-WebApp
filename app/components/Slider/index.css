@@ -1,0 +1,39 @@
+.slider .carousel ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.slider .carousel ul a {
+  width: 20%;
+}
+.slider .carousel ul li {
+  display: flex;
+  flex-direction: column;
+  line-height: 40px;
+  text-align: center;
+}
+.slider .carousel ul li i {
+  font-size: 25px;
+  margin-top: 5px;
+  color: #618eff;
+}
+.slider .carousel ul li p {
+  font-family: "Microsoft YaHei UI";
+  font-size: 15px;
+}
+.slider .dots {
+  bottom: 10px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+.slider .dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #eaeaea;
+  margin-right: 5px;
+}
+.slider .dots li.active {
+  background: #618eff;
+}

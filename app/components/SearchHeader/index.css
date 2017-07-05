@@ -1,0 +1,27 @@
+.search-header {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+.search-header i {
+  color: #fff;
+  margin-left: 10px;
+}
+.search-header i.search {
+  color: #000;
+}
+.search-header .search-input {
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.search-header .search-input input {
+  border: none;
+  padding: 2%;
+  width: 100%;
+}

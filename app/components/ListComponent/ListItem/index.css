@@ -1,0 +1,33 @@
+.list-item {
+  display: flex;
+  margin: 5px 10px 15px 10px;
+}
+.list-item img {
+  width: 120px;
+  height: 90px;
+}
+.list-item .list-item-content {
+  position: relative;
+  width: 100%;
+  margin-left: 13px;
+  line-height: 28px;
+}
+.list-item .list-item-content p {
+  text-overflow: ellipsis;
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.list-item .list-item-content .distance {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+.list-item .list-item-content div {
+  display: flex;
+  justify-content: space-between;
+}
+.list-item .list-item-content div .price {
+  color: red;
+  font-size: 18px;
+}

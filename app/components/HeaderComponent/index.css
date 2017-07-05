@@ -1,0 +1,15 @@
+.header-component {
+  text-align: center;
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+  position: relative;
+}
+.header-component i {
+  font-size: 25px;
+  position: absolute;
+  left: 10px;
+}
+.header-component span {
+  font-size: 20px;
+}
