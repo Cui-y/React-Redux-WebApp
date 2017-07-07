@@ -15,7 +15,7 @@ export default class LoadMore extends Component {
                 //判断该元素距离顶端 和  屏幕一屏的高度
                 let screenHeight = window.screen.height;
                 let Top = this.refs.more.getBoundingClientRect().top;  //获取加载更多字段距离屏幕顶端的距离
-                if(Top<screenHeight){
+                if (Top < screenHeight) {
                     this.props.loadMore();
                 }
             }, 30)

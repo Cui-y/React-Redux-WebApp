@@ -32,7 +32,7 @@ export default class Login extends Component {
     checkIsLogin = () => {
         //检查redux状态中是否有username,如果有则代表登陆
         if (this.props.userInfo.username) {//如果登陆过,则直接跳转到用户页
-            this.props.history.push('/user');
+            this.props.history.push(encodeURIComponent('/user'));
         }
         //如果上述条件不成立,则代表没有登陆,则显示登陆组件
         this.setState({

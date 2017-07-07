@@ -1,3 +1,4 @@
+/*
 let express = require('express');
 let bodyParser = require('body-parser');
 let app = express();
@@ -46,4 +47,52 @@ app.post('/api/comment', (req, res) => {
     console.log(content);
     res.send({msg:'ok!'});
 });
+
+*/
+
+
+let Koa = require('koa');
+let app = new Koa();
+let route = require('koa-router')();
+let cors = require('koa-cors');  //解决跨域
+app.use(cors());
+app.listen(4000);
+
+//获取首页广告数据接口
+let Ad = require('./home/ad');
+route.get('/api/ad', ctx => {
+    ctx.body = Ad;
+});
+
+//获取首页商家商品列表
+let List = require('./home/list');
+route.get('/api/list/:city/:page', ctx => {
+    ctx.body = List;
+});
+
+//获取商户详情信息
+let Info = require('./detail/info');
+route.get('/api/detail/info/:id', ctx => {
+    ctx.body = Info;
+});
+
+//获取 商家评价列表
+let comment = require('./detail/comment');
+route.get('/api/detail/comment/:id/:page', ctx => {
+    ctx.body = comment;
+});
+
+//获取个人中心订单列表
+let orderList = require('./orderlist/orderList');
+route.get('/api/orderlist/:username', ctx => {
+    ctx.body = orderList;
+});
+
+//获取评价内容
+route.post('/api/comment', ctx => {
+    ctx.body = {msg: 'ok!'};
+});
+
+app.use(route.routes())
+    .use(route.allowedMethods());
 
