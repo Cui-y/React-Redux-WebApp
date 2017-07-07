@@ -4,11 +4,6 @@
     <list default="true" id="df74da57-6f57-427e-af28-c2d69564f6be" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/components/LoadMore/index.js" afterPath="$PROJECT_DIR$/app/components/LoadMore/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/containers/Login/index.js" afterPath="$PROJECT_DIR$/app/containers/Login/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mock/server.js" afterPath="$PROJECT_DIR$/mock/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +21,7 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mock/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
+            <state relative-caret-position="693">
               <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -113,10 +108,10 @@
         <option value="$PROJECT_DIR$/mock/home/ad.js" />
         <option value="$PROJECT_DIR$/app/components/Slider/index.less" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/components/LoadMore/index.js" />
         <option value="$PROJECT_DIR$/app/containers/Login/index.js" />
         <option value="$PROJECT_DIR$/mock/server.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -799,7 +794,7 @@
       <workItem from="1499392723517" duration="3046000" />
       <workItem from="1499408241660" duration="7415000" />
       <workItem from="1499427073234" duration="3464000" />
-      <workItem from="1499442101373" duration="5314000" />
+      <workItem from="1499442101373" duration="5458000" />
     </task>
     <task id="LOCAL-00001" summary="react-redux练手项目">
       <created>1499262442584</created>
@@ -808,11 +803,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499262442584</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="修复首页bug">
+      <created>1499449551590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499449551590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137453000" />
+    <option name="totallyTimeSpent" value="137597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -861,7 +863,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="react-redux练手项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-redux练手项目" />
+    <MESSAGE value="修复首页bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复首页bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,19 +939,6 @@
         <state relative-caret-position="744">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2025">
-            <caret line="93" column="23" lean-forward="false" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-            <folding />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
         </state>
       </provider>
     </entry>
@@ -1276,9 +1266,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1775">
+            <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mock/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
+        <state relative-caret-position="693">
           <caret line="58" column="17" lean-forward="true" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
