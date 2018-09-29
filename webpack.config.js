@@ -5,7 +5,7 @@ let ExtractTextWebpackPlugin = require('extract-text-webpack-plugin');
 let extract = new ExtractTextWebpackPlugin('build.css');   //使用一下这个插件,将css单独抽离一个文件
 module.exports = {
     entry: {
-        index:'./app/index.js',
+        index:'./src/index.js',
         vendor:['react','react-dom','redux','react-redux','react-router-dom']
     },
     output: {
@@ -39,7 +39,7 @@ module.exports = {
     plugins: [//注册插件
         extract,
         new htmlWebpackPlugin({
-            template: './app/index.html'
+            template: './src/index.html'
         })
     ],
     devtool: 'source-map', /*实现错误提示映射到源码*/
