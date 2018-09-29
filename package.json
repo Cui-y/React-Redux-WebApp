@@ -1,6 +1,6 @@
 {
-  "name": "React-App-cy",
-  "version": "1.0.0",
+  "name": "react-redux-app-demo",
+  "version": "1.0.1",
   "description": "- react\r - react-router4\r - redux\r - react-redux",
   "main": "index.js",
   "scripts": {
